@@ -1,0 +1,49 @@
+:root{
+    --black:#38373C;
+    --blueGreen:#90C2BC;
+    --pink:#C5A3A8;
+    --brown:#B5906A;
+    --green:#A1B79F;
+    --darkBlue:#4C5C73;}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;}
+h1{
+    margin-left: 15px;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color:var(--brown);
+}
+p{
+    margin-left: 15px;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: var(--black);
+}
+.menu-name{
+    width: 100%;
+    height: auto;
+}
+.bold{
+    font-weight: 700;
+}
+.main--div{
+    display: grid;
+    grid-column: auto auto;
+}
+ul{
+    margin-left: 15px;
+}
+.main--ul{
+    width:200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.img-menu{
+    width:50px;
+    margin-left: 15px;
+}
